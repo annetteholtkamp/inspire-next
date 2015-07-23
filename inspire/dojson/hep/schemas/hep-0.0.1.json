@@ -49,13 +49,14 @@
                             "paperback"
                         ],
                         "type": "string",
-                        "description": "FIXME: this really need to be an enum and cleaned up. What is Print?!",
+                        "description": "FIXME: this really need to be an enum and cleaned up. What is Print?! Other open questions: several editions or volumes in one record, how to deal with illegal marc fields",
                         "title": "Medium"
                     },
                     "value": {
                         "title": "code",
                         "type": "string",
                         "format": "isbn"
+                        "description": "FIXME: Which format? Only ISBN-13? With or without dashes?"
                     }
                 },
                 "title": "ISBN code"
